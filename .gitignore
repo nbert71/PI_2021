@@ -1,5 +1,5 @@
 #testdfhj#
-#wesh#
+#wesjbh#
 .idea
 
 # Built application files
@@ -7,6 +7,8 @@
 *.aar
 *.ap_
 *.aab
+
+.idea
 
 # Files for the ART/Dalvik VM
 *.dex
