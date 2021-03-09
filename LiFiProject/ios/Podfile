@@ -8,6 +8,8 @@ target 'LiFiProject' do
 
   use_react_native!(:path => config["reactNativePath"])
 
+  pod 'react-native-torch', :path => '../node_modules/react-native-torch'
+
   target 'LiFiProjectTests' do
     inherit! :complete
     # Pods for testing
