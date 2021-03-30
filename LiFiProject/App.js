@@ -1,10 +1,12 @@
 import React from "react"
-import Search from './Components/Search'
+import Camera from "./Components/Camera"
 
-export default class App extends React.Component{
-  render(){
-    return (
-        <Search/>
-    )
-  }
+class App extends React.Component{
+    render() {
+        return (
+            <Camera />
+        );
+    }
 }
+
+export default App

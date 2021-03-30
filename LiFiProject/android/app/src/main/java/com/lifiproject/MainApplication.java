@@ -4,6 +4,8 @@ import android.app.Application;
 import android.content.Context;
 import com.facebook.react.PackageList;
 import com.facebook.react.ReactApplication;
+import com.oblador.vectoricons.VectorIconsPackage;
+import org.reactnative.camera.RNCameraPackage;
 import com.cubicphuse.RCTTorch.RCTTorchPackage;
 import com.cubicphuse.RCTTorch.RCTTorchPackage;
 import com.cubicphuse.RCTTorch.RCTTorchPackage;
