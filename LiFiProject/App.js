@@ -1,12 +1,16 @@
 // App.js
 
 import React from 'react'
-import Search from './Components/Search'
+import Navigation from './Navigation/Navigation'
+import Store from './Store/configureStore'
+import {Provider} from "react-redux";
 
 export default class App extends React.Component {
   render() {
     return (
-        <Search/>
+        <Provider store={Store}>
+          <Navigation/>
+        </Provider>
     )
   }
 }
