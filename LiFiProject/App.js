@@ -1,12 +1,10 @@
-import React from "react"
-import Camera from "./Components/Camera"
+import React from 'react'
+import Navigation from './Navigation/Navigation'
 
-class App extends React.Component{
+export default class App extends React.Component {
     render() {
         return (
-            <Camera />
-        );
+                <Navigation/>
+        )
     }
 }
-
-export default App
